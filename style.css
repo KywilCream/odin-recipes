@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Courier New", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(163, 163, 11);
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+img { 
+    margin-top: 10em;
+    width: 50%;
+}
+
+nav ul {
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 1em;
+}
+
+nav li:hover {
+    background-color: rgb(206, 206, 27);
+}
+
+nav a {
+    color: #6d1414;
+    text-decoration: none;
+}
+
+.description {
+    text-align: center;
+    
+}
+
+.description p {
+    padding: 1em;
+}
+
+.ingredients {
+    margin-left: 3em;
+    padding-bottom: 2em;
+}
+
+.steps {
+    text-align: center;
+}
+
+.steps ol {
+    margin-left: 3em;
+    text-align: left;
+}
+
+.steps li {
+    padding: 1em;
+}
